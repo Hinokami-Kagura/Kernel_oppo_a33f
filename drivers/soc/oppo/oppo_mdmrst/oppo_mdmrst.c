@@ -4,6 +4,7 @@
 #include <linux/wait.h>
 #include <linux/fs.h>
 #include <linux/uaccess.h>
+#include <linux/sched.h>
 
 wait_queue_head_t mdmrst_wq;
 unsigned int mdmrest_flg;
